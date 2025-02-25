@@ -32,9 +32,9 @@ const About = () => {
               </p>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-2">
               <div className="flex items-center">
-                <span className="font-semibold w-32">Owner:</span>
+                <span className="font-semibold w-15">Owner:</span>
                 <span>Shivram Chaudhary</span>
               </div>
               <div className="flex items-center">

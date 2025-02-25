@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="inline-block animate-fade-up opacity-0 [--animation-delay:200ms] text-primary-accent font-medium tracking-wider mb-4">
             PROFESSIONAL SERVICES
           </span>
-          <h1 className="animate-fade-up opacity-0 [--animation-delay:400ms] text-4xl md:text-6xl font-display font-bold text-white mb-6">
+          <h1 className="neon-text animate-fade-up opacity-0 [--animation-delay:400ms]">
             Expert Deep Boring &{" "}
             <span className="text-primary-accent">Electric Motor</span> Solutions
           </h1>
