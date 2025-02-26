@@ -19,7 +19,7 @@ const Hero = () => {
             and efficient water solutions through innovative boring and motor
             installation services.
           </p>
-          <div className="animate-fade-up opacity-0 [--animation-delay:800ms] flex flex-col sm:flex-row gap-4">
+          <div className="animate-fade-up opacity-0 [--animation-delay:800ms] flex flex-col sm:flex-row gap-4 bg-gradient-to-r from-gray-900 to-gray-800">
             <button className="inline-flex items-center bg-primary-accent text-white px-8 py-3 rounded-md hover:bg-blue-500 transition-all duration-200 transform hover:scale-105">
               Get a Free Quote
               <ArrowRight className="ml-2 h-5 w-5" />
