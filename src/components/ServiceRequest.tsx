@@ -97,7 +97,7 @@ const ServiceRequest = () => {
   };
 
   return (
-    <section id="service-request" className="py-20 bg-gray-100">
+    <section id="service-request" className="py-20 bg-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gray-100">
         <div className="text-center mb-12 bg-current-100">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-4 bg-transparent-100">
@@ -237,7 +237,7 @@ const ServiceRequest = () => {
         className="w-24 h-80 rounded-full object-cover"
       />
     </div>
-    <div>
+    <div className="space-y-2 ">
       <h3 className="text-xl font-semibold text-gray-900">Shivram Chaudhary</h3>
       <p className="text-gray-600">Owner & Technical Expert</p>
       <div className="mt-2 space-y-1">

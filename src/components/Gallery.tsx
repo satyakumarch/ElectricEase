@@ -1,4 +1,3 @@
-
 const Gallery = () => {
   const projects = [
     {
@@ -28,7 +27,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-gray-50">
+    <section id="gallery" className="py-20 bg-yellow-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-4">
@@ -43,14 +42,14 @@ const Gallery = () => {
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className="group bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-1 transition-all duration-300 animate-fade-up opacity-0"
+              className="group bg-blue-200 rounded-lg shadow-lg overflow-hidden transform duration-500 hover:translate-x-5 hover:-translate-y-5 pointer-events-none"
               style={{ animationDelay: `${index * 200}ms` }}
             >
               <div className="relative aspect-w-16 aspect-h-12">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
+                  className="object-cover w-full h-full rounded-lg shadow-lg transform duration-500 hover:-translate-x-10 hover:translate-y-10 pointer-events-auto"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <span className="text-white text-sm font-medium px-3 py-1 bg-primary-accent rounded-full">

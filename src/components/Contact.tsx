@@ -1,12 +1,23 @@
 
+import { motion } from 'framer-motion';
+
 const Contact = () => {
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 bg-purple-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-4">
-            Contact Us
-          </h2>
+        <motion.h2
+      className="text-3xl md:text-5xl font-display font-bold text-transparent bg-clip-text 
+                 bg-gradient-to-r from-purple-500 to-pink-500 mb-6 relative inline-block 
+                 before:absolute before:-inset-1 before:bg-gradient-to-r before:from-purple-500 
+                 before:to-pink-500 before:blur-lg before:opacity-50"
+      initial={{ opacity: 0, y: -20, scale: 0.9 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      whileHover={{ scale: 1.1 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      Contact Us
+    </motion.h2>
           <p className="text-gray-600">Get in touch with us for all your boring and motor needs</p>
         </div>
 
