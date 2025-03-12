@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-primary hover:text-primary-accent"
+              className="text-primary-foreground hover:text-primary-accent"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
