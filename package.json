@@ -2,6 +2,11 @@
   "name": "vitejs",
   "private": true,
   "version": "0.0.0",
+  "resolutions": {
+  "vite": "^4.5.9"
+}
+,
+  "vite":"^5.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
