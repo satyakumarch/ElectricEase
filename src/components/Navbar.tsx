@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <a href="#" className="font-display text-xl font-bold text-primary flex items-center">
+            <a href="#" className="font-display text-xl font-bolr  text-cyan-100 flex items-center">
               <span className="font-display text-2xl">Shivam</span>
             </a>
           </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-primary hover:text-primary-accent transition-colors duration-200"
+                className="text-primary-accent  hover:text-neutral-50 transition-colors duration-200"
               >
                 {item.label}
               </a>
